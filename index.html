@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/js_109_nastjademchyk/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LloydJefferson</title>
+    <meta
+      name="description"
+      content="This website offers full-stack development services, specializing in creating functional websites. With expertise in React, Node.js, and TypeScript, I collaborate globally to bring your unique ideas to life!"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+
+    <script type="module" crossorigin src="/js_109_nastjademchyk/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_109_nastjademchyk/assets/vendor-_9fXnX53.js">
+    <link rel="stylesheet" crossorigin href="/js_109_nastjademchyk/assets/vendor-4M3Id2dy.css">
+    <link rel="stylesheet" crossorigin href="/js_109_nastjademchyk/assets/index-BwdEAMrb.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container">
+    <div class="page-header-container">
+      <nav class="page-nav">
+        <a class="header-logo" href="./index.html"
+          >Lloyd<span class="accent-color">Jefferson.</span></a
+        >
+        <ul class="page-nav-list">
+          <li class="nav-item">
+            <a href="#about" class="nav-header-button">About me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#my-projects" class="nav-header-button">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#work-together" class="nav-header-button">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="switch">
+        <input type="checkbox" id="toggle" />
+        <label for="toggle"></label>
+      </div>
+      <button
+        class="icon-burger-btn js-open-menu"
+        type="button"
+        aria-label="Open mobile menu"
+      >
+        <svg class="icon-burger" width="32" height="32">
+          <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-menu-btn"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="modal is-hidden js-modal">
+    <a class="header-logo" href="./index.html"
+      >Lloyd<span class="accent-color">Jefferson.</span></a
+    >
+    <button class="modal-close js-close-modal" id="close-modal">
+      <svg class="close" width="32" height="32">
+        <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-close-menu"></use>
+      </svg>
+    </button>
+    <div class="modal-nav-section">
+      <ul class="modal-nav-item">
+        <li><a href="#about" class="nav-header-button">About me</a></li>
+        <li><a href="#my-projects" class="nav-header-button">Projects</a></li>
+        <li>
+          <a href="#work-together" class="nav-header-button">Contacts</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+
+    <main>
+      <!-- Loads the specified .html file -->
+      <section class="hero">
+  <div class="container hero-container">
+    <div class="hero-content">
+      <div class="h1-img">
+        <h1>
+          hello, i am <span class="accent-color">fullstack developer</span>
+        </h1>
+        <picture>
+          <source
+            srcset="/js_109_nastjademchyk/assets/hero-desc-light-x1-Db9Y66bM.jpg 1x, /js_109_nastjademchyk/assets/hero-desc-light-x2-6rcEsO8b.jpg 2x"
+            media="(prefers-color-scheme: light) and (min-width: 1280px)"
+          />
+          <img
+            class="hero-light-img"
+            src="/js_109_nastjademchyk/assets/hero-desc-light-x1-Db9Y66bM.jpg"
+            alt="man"
+            width="592"
+            height="444"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+      <div class="desk-arrow-text">
+        <div class="arrow-box">
+          <svg class="arrow-icon" width="28" height="16">
+            <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-Arrow-hero"></use>
+          </svg>
+          <a href="#work-together" class="hero-text-order">
+            <span class="order-square"></span>ORDER THE PROJECT</a
+          >
+        </div>
+        <p class="hero-text">
+          I work with people all over the world to create
+          <span class="accent-color">impressive</span> and
+          <span class="accent-color">functional</span> websites that reflect
+          each client’s unique personality.
+        </p>
+      </div>
+    </div>
+    <div class="container-social-links">
+      <ul class="hero-social-links-list">
+        <li class="hero-link">
+          <a
+            href="https://www.instagram.com/goitclub/ "
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram</a
+          >
+        </li>
+        <li class="hero-link">
+          <a
+            href=" https://www.facebook.com/goITclub/ "
+            target="_blank"
+            rel="noopener noreferrer"
+            >Facebook</a
+          >
+        </li>
+        <li class="hero-link">
+          <a
+            href="https://www.linkedin.com/school/goit-start-your-career-in-it "
+            rel="noopener noreferrer"
+            target="_blank"
+            >Linkedin</a
+          >
+        </li>
+        <li class="hero-link">
+          <a
+            href="https://github.com/nastjademchyk/project-js-teamwork"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="about about-for-background" id="about">
+  <div class="container">
+    <h1 class="about-title">About <span class="accent-color">me</span></h1>
+    <div class="foto">
+      <div class="ab-im li-im">
+        <picture>
+          <source
+            srcset="/js_109_nastjademchyk/assets/about-desc-x1-h4nmA4yE.jpg 1x, /js_109_nastjademchyk/assets/about-desc-x2-BfyXoV6b.jpg 2x"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/about-tablet-x1-BgkEB2Ha.jpg 1x, /js_109_nastjademchyk/assets/about-tablet-x2-R3UWXG7G.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/about-mobile-x1-CewCdY-M.jpg 1x, /js_109_nastjademchyk/assets/about-mobile-x2-CQUKb5Mf.jpg 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            class="about-image"
+            src="/js_109_nastjademchyk/assets/about-mobile-x1-CewCdY-M.jpg"
+            alt="About me photo"
+            width="320"
+            height="374"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+      <div class="about-text-container li-im">
+        <h2 class="about-title-two">bio</h2>
+        <!-- <span class="special-dash">&mdash;</span> -->
+        <div class="about-pharagraf-all">
+          <p class="about-text after-first-paragraf">
+            I'm Lloyd Jefferson, a talented programmer specializing in software
+            development. My expertise spans various programming languages and
+            technologies, and I am dedicated to continually enhancing my skills.
+            I thrive on seeking unconventional and creative solutions to
+            problems, leveraging a high level of analytical skills to
+            effectively tackle even the most challenging tasks.
+          </p>
+          <!-- <span class="special-dash">&mdash;</span> -->
+          <p class="about-text">
+            Adaptable to both independent and team-oriented work, I collaborate
+            seamlessly with colleagues, exchanging ideas and finding optimal
+            solutions. My professional maturity enables me to navigate
+            challenges and stressful situations with a calm demeanor,
+            maintaining a consistently high quality of work. Committed to
+            self-improvement, I actively engage in studying new technologies and
+            practices to stay current with the latest innovations in the field.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-section">
+      <div class="education-block">
+        <h2 class="about-title-two">education</h2>
+        <ul class="about-list-education">
+          <li class="about-item-education">
+            2018 - 2019 / Frontend Development Diploma, GoIT IT School, New York
+          </li>
+          <li class="about-item-education">
+            2019 - 2020 / Advanced Web Development Certificate, GoIT IT School,
+            New York
+          </li>
+          <li class="about-item-education">
+            2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+          </li>
+        </ul>
+      </div>
+      <div class="role-block">
+        <h2 class="about-title-two">role</h2>
+        <ul class="about-list-education">
+          <li class="about-item-education">Frontend development</li>
+          <li class="about-item-education">HeadlessCMS, Wordpress</li>
+          <li class="about-item-education">Blender (enjoy)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="tech-skills">
+  <div class="container tech-primery">
+    <h2 class="tech-nav">Tech Skills</h2>
+    <div class="tech-container">
+      <div class="tech-line background-tech-one">
+        <div class="tech-line-track">
+          <p class="tech-item-one">HTML/CSS</p>
+          <p class="tech-item-one">REACT</p>
+          <p class="tech-item-one">NODE.JS</p>
+          <p class="tech-item-one">REACT NATIVE</p>
+          <p class="tech-item-one">TYPESCRIPT</p>
+          <p class="tech-item-one">HTML/CSS</p>
+          <p class="tech-item-one">REACT</p>
+          <p class="tech-item-one">NODE.JS</p>
+          <p class="tech-item-one">REACT NATIVE</p>
+          <p class="tech-item-one">TYPESCRIPT</p>
+          <p class="tech-item-one">HTML/CSS</p>
+          <p class="tech-item-one">REACT</p>
+          <p class="tech-item-one">NODE.JS</p>
+          <p class="tech-item-one">REACT NATIVE</p>
+          <p class="tech-item-one">TYPESCRIPT</p>
+        </div>
+      </div>
+
+      <div class="tech-line background-tech-two">
+        <div class="tech-line-track-second">
+          <p class="tech-item-two">HTML/CSS</p>
+          <p class="tech-item-two">REACT</p>
+          <p class="tech-item-two">NODE.JS</p>
+          <p class="tech-item-two">REACT NATIVE</p>
+          <p class="tech-item-two">TYPESCRIPT</p>
+          <p class="tech-item-two">HTML/CSS</p>
+          <p class="tech-item-two">REACT</p>
+          <p class="tech-item-two">NODE.JS</p>
+          <p class="tech-item-two">REACT NATIVE</p>
+          <p class="tech-item-two">TYPESCRIPT</p>
+          <p class="tech-item-two">HTML/CSS</p>
+          <p class="tech-item-two">REACT</p>
+          <p class="tech-item-two">NODE.JS</p>
+          <p class="tech-item-two">REACT NATIVE</p>
+          <p class="tech-item-two">TYPESCRIPT</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="my-projects" id="my-projects">
+  <div class="container">
+    <h2 class="title">My <span class="title-projects">projects</span></h2>
+    <ul class="projects-list">
+      <li class="project-item is-hidden">
+        <picture>
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-1-x1-CapMK7Rf.jpg 1x, /js_109_nastjademchyk/assets/projects-1-x2-DvyVL72G.jpg 2x"
+            media="(min-width: 1158px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-1-tab-x1-Coewv29f.jpg 1x, /js_109_nastjademchyk/assets/projects-1-x2-DvyVL72G.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-1-mob-x1--Q3r8eWK.jpg 1x, /js_109_nastjademchyk/assets/projects-1-mob-x2-CQQwASOo.jpg 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            class="img-project"
+            src="/js_109_nastjademchyk/assets/projects-1-mob-x1--Q3r8eWK.jpg"
+            alt="project-1"
+            loading="lazy"
+          />
+        </picture>
+        <div class="content-container">
+          <div class="item-content">
+            <p class="item-text">React, JavaScript, Node JS, Git</p>
+            <h3 class="project-name">Power pulse webservice</h3>
+          </div>
+          <a
+            class="link-project"
+            href="https://github.com/nastjademchyk/project-js-teamwork"
+            target="_blank"
+            >VISIT
+            <svg class="icon-visit" width="18" height="18">
+              <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-arrow-visit"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="project-item is-hidden">
+        <picture>
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-2-x1-DTCQUBai.jpg 1x, /js_109_nastjademchyk/assets/projects-2-x2-OpZf8kfL.jpg 2x"
+            media="(min-width: 1158px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-2-tab-x1-CuX-Wf91.jpg 1x, /js_109_nastjademchyk/assets/projects-2-tab-x2-B2fKPtNx.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-2-mob-x1-D5dhMEws.jpg 1x, /js_109_nastjademchyk/assets/projects-2-mob-x2-qnY2RQa7.jpg 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            class="img-project"
+            src="/js_109_nastjademchyk/assets/projects-2-mob-x1-D5dhMEws.jpg"
+            alt="project-2"
+            loading="lazy"
+          />
+        </picture>
+        <div class="content-container">
+          <div class="item-content">
+            <p class="item-text">React, JavaScript, Node JS, Git</p>
+            <h3 class="project-name">Mimino website</h3>
+          </div>
+          <a
+            class="link-project"
+            href="https://github.com/nastjademchyk/project-js-teamwork"
+            target="_blank"
+            >VISIT
+            <svg class="icon-visit" width="18" height="18">
+              <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-arrow-visit"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="project-item is-hidden">
+        <picture>
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-3-x1-vNK8S1Ky.jpg 1x, /js_109_nastjademchyk/assets/projects-3-x2-DFUJJX3z.jpg 2x"
+            media="(min-width: 1158px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-3-tab-x1-BtnbcR75.jpg 1x, /js_109_nastjademchyk/assets/projects-3-tab-x2-C8Y5qthe.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-3-mob-x1-vdii-ntV.jpg 1x, /js_109_nastjademchyk/assets/projects-3-mob-x2-B-ktStAa.jpg 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            class="img-project"
+            src="/js_109_nastjademchyk/assets/projects-3-mob-x1-vdii-ntV.jpg"
+            alt="project-3"
+            loading="lazy"
+          />
+        </picture>
+        <div class="content-container">
+          <div class="item-content">
+            <p class="item-text">React, JavaScript, Node JS, Git</p>
+            <h3 class="project-name">Vyshyvanka vibes Landing Page</h3>
+          </div>
+          <a
+            class="link-project"
+            href="https://github.com/nastjademchyk/project-js-teamwork"
+            target="_blank"
+            >VISIT
+            <svg class="icon-visit" width="18" height="18">
+              <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-arrow-visit"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="project-item is-hidden">
+        <picture>
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-4-x1-cj09IApn.jpg 1x, /js_109_nastjademchyk/assets/projects-4-x2-D9Hngh73.jpg 2x"
+            media="(min-width: 1158px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-4-tab-x1-C6395D_g.jpg 1x, /js_109_nastjademchyk/assets/projects-4-tab-x2-Cg1vEfCr.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-4-mob-x1-_xl-WB6Y.jpg 1x, /js_109_nastjademchyk/assets/projects-4-mob-x2-Dm1w71Zb.jpg 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            class="img-project"
+            src="/js_109_nastjademchyk/assets/projects-4-mob-x1-_xl-WB6Y.jpg"
+            alt="project-4"
+            loading="lazy"
+          />
+        </picture>
+        <div class="content-container">
+          <div class="item-content">
+            <p class="item-text">React, JavaScript, Node JS, Git</p>
+            <h3 class="project-name">Green harvest online store</h3>
+          </div>
+          <a
+            class="link-project"
+            href="https://github.com/nastjademchyk/project-js-teamwork"
+            target="_blank"
+            >VISIT
+            <svg class="icon-visit" width="18" height="18">
+              <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-arrow-visit"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="project-item is-hidden">
+        <picture>
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-5-x1-CwhiXQWu.jpg 1x, /js_109_nastjademchyk/assets/projects-5-x2-CXS6IDiv.jpg 2x"
+            media="(min-width: 1158px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-5-tab-x1-B3luvYei.jpg 1x, /js_109_nastjademchyk/assets/projects-5-tab-x2-BHGZG8oc.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-5-mob-x1-C9yqe-zC.jpg 1x, /js_109_nastjademchyk/assets/projects-5-mob-x2-Bx6FpG9X.jpg 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            class="img-project"
+            src="/js_109_nastjademchyk/assets/projects-5-mob-x1-C9yqe-zC.jpg"
+            alt="project-5"
+            loading="lazy"
+          />
+        </picture>
+        <div class="content-container">
+          <div class="item-content">
+            <p class="item-text">React, JavaScript, Node JS, Git</p>
+            <h3 class="project-name">Wallet webservice</h3>
+          </div>
+          <a
+            class="link-project"
+            href="https://github.com/nastjademchyk/project-js-teamwork"
+            target="_blank"
+            >VISIT
+            <svg class="icon-visit" width="18" height="18">
+              <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-arrow-visit"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="project-item is-hidden">
+        <picture>
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-6-x1-BQZL2cMz.jpg 1x, /js_109_nastjademchyk/assets/projects-6-x2-D9HGTxdP.jpg 2x"
+            media="(min-width: 1158px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-6-tab-x1-Cg307A-G.jpg 1x, /js_109_nastjademchyk/assets/projects-6-tab-x2-D8j4k3Qw.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-6-mob-x1-BmvkPsYr.jpg 1x, /js_109_nastjademchyk/assets/projects-6-mob-x2-B_n61jxV.jpg 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            class="img-project"
+            src="/js_109_nastjademchyk/assets/projects-6-mob-x1-BmvkPsYr.jpg"
+            alt="project-6"
+            loading="lazy"
+          />
+        </picture>
+        <div class="content-container">
+          <div class="item-content">
+            <p class="item-text">React, JavaScript, Node JS, Git</p>
+            <h3 class="project-name">Chego jewelry website</h3>
+          </div>
+          <a
+            class="link-project"
+            href="https://github.com/nastjademchyk/project-js-teamwork"
+            target="_blank"
+            >VISIT
+            <svg class="icon-visit" width="18" height="18">
+              <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-arrow-visit"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="project-item is-hidden">
+        <picture>
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-7-x1-I-JwBcoW.jpg 1x, /js_109_nastjademchyk/assets/projects-7-x2-lN8mfpNA.jpg 2x"
+            media="(min-width: 1158px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-7-tab-x1-CSi5sORH.jpg 1x, /js_109_nastjademchyk/assets/projects-7-tab-x2-Dn6QFQmb.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-7-mob-x1-CraxD2ff.jpg 1x, /js_109_nastjademchyk/assets/projects-7-mob-x2-CXcJA16x.jpg 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            class="img-project"
+            src="/js_109_nastjademchyk/assets/projects-7-mob-x1-CraxD2ff.jpg"
+            alt="project-7"
+            loading="lazy"
+          />
+        </picture>
+        <div class="content-container">
+          <div class="item-content">
+            <p class="item-text">React, JavaScript, Node JS, Git</p>
+            <h3 class="project-name">Energy flow webservice</h3>
+          </div>
+          <a
+            class="link-project"
+            href="https://github.com/nastjademchyk/project-js-teamwork"
+            target="_blank"
+            >VISIT
+            <svg class="icon-visit" width="18" height="18">
+              <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-arrow-visit"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="project-item is-hidden">
+        <picture>
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-8-x1-WTHiygV1.jpg 1x, /js_109_nastjademchyk/assets/projects-8-x2-CoYRoLEk.jpg 2x"
+            media="(min-width: 1158px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-8-tab-x1-CJrWwfE-.jpg 1x, /js_109_nastjademchyk/assets/projects-8-tab-x2-l9abRgTK.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-8-mob-x1-CVK3cR5-.jpg 1x, /js_109_nastjademchyk/assets/projects-8-mob-x2-BcRK8FJy.jpg 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            class="img-project"
+            src="/js_109_nastjademchyk/assets/projects-8-mob-x1-CVK3cR5-.jpg"
+            alt="project-8"
+            loading="lazy"
+          />
+        </picture>
+        <div class="content-container">
+          <div class="item-content">
+            <p class="item-text">React, JavaScript, Node JS, Git</p>
+            <h3 class="project-name">Fruitbox online store</h3>
+          </div>
+          <a
+            class="link-project"
+            href="https://github.com/nastjademchyk/project-js-teamwork"
+            target="_blank"
+            >VISIT
+            <svg class="icon-visit" width="18" height="18">
+              <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-arrow-visit"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="project-item is-hidden">
+        <picture>
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-9-x1-DFhocTKZ.jpg 1x, /js_109_nastjademchyk/assets/projects-9-x2-CKT8R3fY.jpg 2x"
+            media="(min-width: 1158px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-9-tab-x1-DhXr54et.jpg 1x, /js_109_nastjademchyk/assets/projects-9-tab-x2-CwAzaqQJ.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-9-mob-x1-IwWtRZv2.jpg 1x, /js_109_nastjademchyk/assets/projects-9-mob-x2-DmgeuhEG.jpg 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            class="img-project"
+            src="/js_109_nastjademchyk/assets/projects-9-mob-x1-IwWtRZv2.jpg"
+            alt="project-9"
+            loading="lazy"
+          />
+        </picture>
+        <div class="content-container">
+          <div class="item-content">
+            <p class="item-text">React, JavaScript, Node JS, Git</p>
+            <h3 class="project-name">English excellence webservice</h3>
+          </div>
+          <a
+            class="link-project"
+            href="https://github.com/nastjademchyk/project-js-teamwork"
+            target="_blank"
+            >VISIT
+            <svg class="icon-visit" width="18" height="18">
+              <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-arrow-visit"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="project-item is-hidden">
+        <picture>
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-10-x1-BaFu61PB.jpg 1x, /js_109_nastjademchyk/assets/projects-10-x2-Qc1sphXJ.jpg 2x"
+            media="(min-width: 1158px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-10-tab-x1-GUSFCfYq.jpg 1x, /js_109_nastjademchyk/assets/projects-10-tab-x2-8Qd9bQMm.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/js_109_nastjademchyk/assets/projects-10-mob-x1-BL_QVuaS.jpg 1x, /js_109_nastjademchyk/assets/projects-10-mob-x2-4zfG5G01.jpg 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            class="img-project"
+            src="/js_109_nastjademchyk/assets/projects-10-mob-x1-BL_QVuaS.jpg"
+            alt="project-10"
+            loading="lazy"
+          />
+        </picture>
+        <div class="content-container">
+          <div class="item-content">
+            <p class="item-text">React, JavaScript, Node JS, Git</p>
+            <h3 class="project-name">Starlight studio landing page</h3>
+          </div>
+          <a
+            class="link-project"
+            href="https://github.com/nastjademchyk/project-js-teamwork"
+            target="_blank"
+            >VISIT
+            <svg class="icon-visit" width="18" height="18">
+              <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-arrow-visit"></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+    </ul>
+    <button class="btn-load is-hidden" type="button">load more</button>
+  </div>
+</section>
+
+      <section class="benefits">
+  <div class="container benefits-container">
+    <h2 class="benefits-h2">
+      <span class="accent-color">benefits</span> of working with me
+    </h2>
+    <ul class="benefits-list">
+      <li class="benefits-item">
+        <svg class="svg-user" width="48" height="48">
+          <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-user"></use>
+        </svg>
+
+        <h3 class="benefits-item-title">Expertise</h3>
+        <p class="benefits-item-content">
+          With extensive experience in development, I have a deep understanding
+          of programming and website development.
+        </p>
+      </li>
+
+      <li class="benefits-item">
+        <svg class="svg-chat" width="48" height="48">
+          <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-message-chat"></use>
+        </svg>
+        <h3 class="benefits-item-title">Communication</h3>
+        <p class="benefits-item-content">
+          Understanding your needs and wants is my priority and I am always
+          available for discussions and open to corrections.
+        </p>
+      </li>
+      <li class="benefits-item">
+        <svg class="svg-brush" width="48" height="48">
+          <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-brush"></use>
+        </svg>
+        <h3 class="benefits-item-title">Art</h3>
+        <p class="benefits-item-content">
+          Thanks to my creative nature, I am ready to accept challenges and help
+          you bring your ideas to life.
+        </p>
+      </li>
+      <li class="benefits-item">
+        <svg class="svg-hourglass" width="48" height="48">
+          <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-hourglass"></use>
+        </svg>
+        <h3 class="benefits-item-title">Urgent execution</h3>
+        <p class="benefits-item-content">
+          I understand how important time is to you. Ready to work quickly and
+          efficiently, without reducing the quality of work.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="faq section" id="faq">
+
+    <div class="container faq-container">
+
+        <h2 class="faq-title">Frequently Asked <span class="accent-color">Question</span></h2>
+
+        
+
+            <ul class="accordion-container">
+
+                <li class="ac-item">
+
+                    <h3 class="ac-header">
+                        <button class="ac-trigger" type="button" aria-expanded="true">
+                            What programming languages are most often used in your project?
+                            <svg class="faq-icon">
+                                <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-dropdown"></use>
+                            </svg>
+                        </button>
+                    </h3>
+
+                    <div class="ac-panel">
+                        <p class="ac-text">In the field of web development, there are various technologies and
+                        programming languages. Typically, this includes a combination of HTML (client-side) and backend (server-side) languages.</p>
+                    </div>
+                </li>
+
+                <li class="ac-item">
+
+                    <h3 class="ac-header">
+                        <button class="ac-trigger" type="button" aria-expanded="false">
+                            What are the deadlines for the project?
+                            <svg class="faq-icon hover-animation">
+                                <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-dropdown"></use>
+                            </svg>
+                        </button>
+                    </h3>
+
+
+                    <div class="ac-panel">
+                        <p class="ac-text">The terms of project implementation depend to a large extent on a number of
+                            factors, such as the scope of the project,
+                            its complexity, and the availability of resources. Determining exact deadlines is a
+                            difficult task, and it usually
+                            occurs during the planning phase of the project.</p>
+                    </div>
+                </li>
+
+                <li class="ac-item">
+
+                    <h3 class="ac-header">
+                        <button class="ac-trigger" type="button" aria-expanded="false">
+                            What payment methods do you accept?
+                            <svg class="faq-icon">
+                                <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-dropdown"></use>
+                            </svg>
+                        </button>
+                    </h3>
+
+
+                    <div class="ac-panel">
+                        <p class="ac-text">Payment through credit and debit cards such as Visa, MasterCard, specialized
+                            electronic payment systems such as PayPal,
+                            as well as payments in cryptocurrencies such as Bitcoin, Ethereum and others.</p>
+                    </div>
+                </li>
+
+                <li class="ac-item">
+
+                    <h3 class="ac-header">
+                        <button class="ac-trigger" type="button" aria-expanded="false">
+                            How can I contact you?
+                            <svg class="faq-icon">
+                                <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-dropdown"></use>
+                            </svg>
+                        </button>
+                    </h3>
+
+
+                    <div class="ac-panel">
+                        <p class="ac-text">In the field of web development, there are various technologies and
+                            programming languages. Typically, this includes a
+                            combination of frontend (client side) and backend (server side) languages.</p>
+                    </div>
+                </li>
+
+                <li class="ac-item">
+
+                    <h3 class="ac-header">
+                        <button class="ac-trigger" type="button" aria-expanded="false">
+                            Do you provide advice or support?
+                            <svg class="faq-icon">
+                                <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-dropdown"></use>
+                            </svg>
+                        </button>
+                    </h3>
+
+
+                    <div class="ac-panel">
+                        <p class="ac-text">The terms of project implementation depend to a large extent on a number of
+                            factors, such as the scope of the project,
+                            its complexity, and the availability of resources. Determining exact deadlines is a
+                            difficult task, and it usually
+                            occurs during the planning phase of the project.</p>
+                    </div>
+                </li>
+
+                <li class="ac-item">
+
+                    <h3 class="ac-header">
+                        <button class="ac-trigger" type="button" aria-expanded="false">
+                            What does the process of developing a software product look like from idea to
+                            implementation?
+                            <svg class="faq-icon">
+                                <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-dropdown"></use>
+                            </svg>
+                        </button>
+                    </h3>
+
+
+                    <div class="ac-panel">
+                        <p class="ac-text">Payment through credit and debit cards such as Visa, MasterCard, specialized
+                            electronic payment systems such as PayPal,
+                            as well as payments in cryptocurrencies such as Bitcoin, Ethereum and others.</p>
+                    </div>
+                </li>
+            </ul>
+        
+    </div>
+</section>
+      <section id="reviewsId" class="reviews">
+  <div class="container">
+    <h2 class="reviews-title">Reviews</h2>
+    <div class="swiper">
+      <ul class="swiper-wrapper reviews-list"></ul>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-btns">
+        <button class="swiper-next-btn">
+          <svg class="swiper-next-svg" width="24" height="24">
+            <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-arrow-narrow-left"></use>
+          </svg>
+        </button>
+        <button class="swiper-prev-btn" disabled>
+          <svg class="swiper-prev-svg" width="24" height="24">
+            <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-arrow-narrow-right-1"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="work-together" id="work-together">
+  <div class="container container-work-together">
+    <h2 class="work-together-title">
+      let's <span class="accent-color">work together</span>
+    </h2>
+    <div class="work-together-wrap">
+      <div class="work-together-left">
+        <p class="left-text">
+          Contact me to transform your ideas into exceptional solutions.
+        </p>
+        <ul class="left-contact-list">
+          <li class="left-contact-link">
+            <svg class="left-contact-icon" width="24" height="24">
+              <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-phone"></use>
+            </svg>
+            <a href="tel:+380904567890" class="contakt-tel"
+              >+38 090 456 78 90</a
+            >
+          </li>
+          <li class="left-contact-link">
+            <svg class="left-contact-icon" width="24" height="24">
+              <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-email"></use>
+            </svg>
+            <a href="mailto:lloydjefferson@gmail.com" class="contakt-email"
+              >lloydjefferson@gmail.com</a
+            >
+          </li>
+          <li class="left-contact-link">
+            <svg class="left-contact-icon" width="24" height="24">
+              <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-location"></use>
+            </svg>
+            <a
+              href="https://maps.app.goo.gl/5xLfcEBCyVQVZEj98"
+              class="contakt-location"
+              target="_blank"
+              >USA, New York</a
+            >
+          </li>
+        </ul>
+      </div>
+      <form class="work-together-right" autocomplete="off" novalidate>
+        <div class="form-input-wrap">
+          <input
+            class="form-input-email form-input"
+            type="email"
+            name="email"
+            required
+            placeholder="Your email*"
+            pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+            minlength="6"
+            maxlength="64"
+          />
+          <svg class="form-input-icon" width="16" height="16">
+            <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-success-filled"></use>
+          </svg>
+          <span class="form-status-error">Invalid email, try again </span>
+        </div>
+
+        <textarea
+          class="form-input-comments form-input"
+          name="comments"
+          required
+          placeholder="Message"
+        ></textarea>
+        <button class="form-button" type="submit" name="send_order">
+          Send Message
+        </button>
+      </form>
+      <div class="modal-container"></div>
+    </div>
+  </div>
+</section>
+
+      <button class="scroll-to-top" type="button" aria-label="Scroll to top">
+  <svg class="scroll-to-top-icon" width="26" height="26">
+    <use href="/js_109_nastjademchyk/assets/icons-svg-BT1NFTr9.svg#icon-icon-dropdown-up"></use>
+  </svg>
+</button>
+
+    </main>
+
+    <footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <a class="footer-logo-link" href="./index.html"
+          >Lloyd<span class="accent-color">Jefferson.</span>
+        </a>
+      </div>
+      <div class="footer-social">
+        <a
+          href="https://www.instagram.com/goitclub/"
+          aria-label="Instagram"
+          target="_blank"
+          >Instagram</a
+        >
+        <a
+          href="https://www.facebook.com/goITclub/"
+          aria-label="Facebook"
+          target="_blank"
+          >Facebook</a
+        >
+        <a
+          href="https://www.linkedin.com/school/goit-start-your-career-in-it"
+          aria-label="LinkedIn"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a
+          href="https://github.com/nastjademchyk/project-js-teamwork"
+          aria-label="GitHub"
+          target="_blank"
+          >GitHub</a
+        >
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <p>© Copyright 2024.</p>
+      <p>Made by Lloyd Jefferson.</p>
+    </div>
+  </div>
+</footer>
+
+
+  </body>
+</html>
